@@ -74,7 +74,7 @@ The script will automatically check for these dependencies before running:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/basantmandal/antigravity2-installer-linux.git
+git clone https://github.com/basantmandal/google-antigravity-installer-linux.git
 cd antigravity2-installer-linux
 ```
 
