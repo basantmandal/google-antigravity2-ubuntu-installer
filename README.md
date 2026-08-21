@@ -5,7 +5,7 @@
 
   <img src="https://img.shields.io/badge/version-1.0-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Linux-blue" alt="Platform">
-  <a href="https://github.com/BasantMandal/antigravity-linux-installer/actions"><img src="https://github.com/BasantMandal/antigravity-linux-installer/actions/workflows/shellcheck.yml/badge.svg" alt="ShellCheck"></a>
+  <a href="https://github.com/BasantMandal/google-antigravity2-linux-installer/actions"><img src="https://github.com/BasantMandal/google-antigravity2-linux-installer/actions/workflows/shellcheck.yml/badge.svg" alt="ShellCheck"></a>
   <img src="https://img.shields.io/badge/license-OSL--3.0-green?style=flat-square" alt="License">
   <br>
   <a href="https://www.basantmandal.in/"><img src="https://img.shields.io/badge/Website-000?style=flat-square&logo=ko-fi&logoColor=white" alt="Website"></a>
