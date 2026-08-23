@@ -64,11 +64,11 @@ cat > "$USER_HOME/.local/share/applications/antigravity2.desktop" <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Antigravity2
+Name=Antigravity 2.0
 GenericName=IDE
 Comment=Experience liftoff
 Exec=/opt/Antigravity/antigravity %F
-Icon=utilities-terminal
+Icon=antigravity
 Terminal=false
 StartupNotify=true
 StartupWMClass=Antigravity
@@ -79,6 +79,27 @@ chmod 644 "$USER_HOME/.local/share/applications/antigravity2.desktop"
 
 if command -v update-desktop-database >/dev/null 2>&1; then
     update-desktop-database "$USER_HOME/.local/share/applications" || true
+fi
+
+echo "Installing Antigravity icon..."
+
+sudo mkdir -p /usr/share/icons/hicolor/512x512/apps
+
+if [[ -f "antigravity.png" ]]; then
+    sudo cp "antigravity.png" \
+        /usr/share/icons/hicolor/512x512/apps/antigravity.png
+
+    sudo chmod 644 \
+        /usr/share/icons/hicolor/512x512/apps/antigravity.png
+
+    if command -v gtk-update-icon-cache >/dev/null 2>&1; then
+        sudo gtk-update-icon-cache -f /usr/share/icons/hicolor 2>/dev/null || true
+    fi
+
+    echo "Antigravity 2.0 icon installed."
+else
+    echo "Warning: antigravity.png not found in current directory."
+    echo "Continuing without custom icon."
 fi
 
 echo "Cleaning up..."
@@ -98,4 +119,4 @@ if [ -f "$ARCHIVE" ]; then
     esac
 fi
 
-echo "Done! Antigravity2 has been successfully installed."
+echo "Done! Antigravity 2.0 has been successfully installed."
