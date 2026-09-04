@@ -89,7 +89,7 @@ chmod +x install.sh
 The script will automatically download and install it to `/opt`, and configure your desktop shortcuts.
 
 ```bash
-./install.sh
+sudo ./install.sh
 ```
 
 That's it! 🎉
