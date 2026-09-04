@@ -64,14 +64,14 @@ cat > "$USER_HOME/.local/share/applications/antigravity2.desktop" <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Antigravity 2.0
+Name=Antigravity
 GenericName=IDE
 Comment=Experience liftoff
 Exec=/opt/Antigravity/antigravity %F
 Icon=antigravity
 Terminal=false
 StartupNotify=true
-StartupWMClass=Antigravity
+StartupWMClass=antigravity
 Categories=Development;TextEditor;
 EOF
 
