@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/basantmandal/google-antigravity2-linux-installer/compare/v1.1.0...v1.1.1) (2026-09-04)
+
+### 🐛 Bug Fixes
+
+* ubuntu dock - GNOME StartupWMClass mismatch ([142ecdf](https://github.com/basantmandal/google-antigravity2-linux-installer/commit/142ecdf45fc2374255d043a6ffb669993c8aee5a))
+
+### 📝 Documentation
+
+* update install command to use sudo ([3d12227](https://github.com/basantmandal/google-antigravity2-linux-installer/commit/3d122277e3cf5d4309137c802d1625136cb390bf))
+
 ## [1.1.0](https://github.com/basantmandal/google-antigravity2-linux-installer/compare/v1.0.0...v1.1.0) (2026-08-23)
 
 ### ✨ Features
